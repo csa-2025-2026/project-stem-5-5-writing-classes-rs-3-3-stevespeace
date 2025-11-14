@@ -4,6 +4,7 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // Create objects and test your classes in here
+    Person p1 = new Person("Steven", "Nguyen", 7, 123456789);
+    System.out.println(p1);
   }
 }
